@@ -1,19 +1,24 @@
-# 👋 Hi, I'm Bharath! 
-### Aspiring Data Scientist | ML Enthusiast | Data Explorer  
+## Hey, I'm Bharath 
+  — a data science grad student passionate about exploring how **data shapes the automotive world.**
 
-🚀 I'm currently pursuing my **Master's in Data Science**, where I work on projects related to:  
-- 📊 **Data Analysis & Visualization**
-- 🤖 **Machine Learning & AI**
-- 🛠 **Python, Pandas, Matplotlib, Seaborn**
-- 📈 **Exploratory Data Analysis (EDA)**  
+### 🚗 What I’m Building at the moment:
+**BN Garage** — my personal space to experiment, analyze, and visualize automotive data.
+Each project explores a new aspect of auto intelligence:
+- 🧩 **SQL Dealership Systems** → inventory, pricing & sales analytics
+- ⚙️ **NLP for Recalls** → understanding manufacturer issues & consumer reports
+- 📈 **Predictive Models** → reliability, resale value, and maintenance forecasts
+- 🧠 **Machine Learning Experiments** → clustering, embeddings, and anomaly detection on car data
 
-### 🏆 Featured Projects  
-🌟 [Data Science Assignment - Exploratory Analysis](https://github.com/Bharath-Naveen/assignment_submission)  
-🌟 [Web Scraping Job Listings](https://github.com/YOUR-WEB-SCRAPING-PROJECT)  
-🌟 [PCA & Clustering Analysis](https://github.com/YOUR-PCA-PROJECT)  
+### 🧰 Tech Stack
+`Python` • `SQL` • `Pandas` • `scikit-learn` • `NLTK` • `Plotly` • `Power BI`  
 
-💡 Always learning, always improving!  
-📩 **Let's connect on [LinkedIn](https://www.linkedin.com/in/bharath-n-96334019b/)!**
+### 💡 Vision
+To blend automotive passion with data-driven storytelling — building insights that help make cars smarter, safer, and more reliable.
+
+📍 Currently at University of Arizona  
+💼 Open to collaborations on automotive data science projects
+
+
 
 
 <!---
