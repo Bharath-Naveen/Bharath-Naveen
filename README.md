@@ -36,7 +36,7 @@ End-to-end dealership database built from scratch.
 - Complex joins, aggregations & business queries  
 - Analytics-driven reporting  
 
-### 🎬 Movie Website Scraper
+### 🎬 [Movie Website Scraper](https://github.com/Bharath-Naveen/tmdb-movie-scraper)
 Web scraping pipeline extracting structured review data.
 - Data cleaning & transformation  
 - Exploratory analysis  
