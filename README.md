@@ -48,7 +48,7 @@ Exploratory data analysis on YouTube video performance.
 - Trend detection  
 - Visualization with Plotly  
 
-### 🏦 Bank Default Prediction
+### 🏦 [Bank Default Prediction](https://github.com/Bharath-Naveen/german-loan-default-ml-)
 Classification model predicting loan default risk.
 - Feature engineering  
 - Model comparison  
