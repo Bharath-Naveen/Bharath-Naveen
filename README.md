@@ -42,7 +42,7 @@ Web scraping pipeline extracting structured review data.
 - Exploratory analysis  
 - Structured CSV export for downstream analytics  
 
-### 📺 YouTube Analytics Explorer
+### 📺 [YouTube Analytics Explorer](https://github.com/Bharath-Naveen/youtube-analytics-pipeline)
 Exploratory data analysis on YouTube video performance.
 - Engagement metric analysis  
 - Trend detection  
