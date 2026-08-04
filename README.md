@@ -17,14 +17,6 @@ I build practical, end-to-end data solutions — from database design to ETL pip
 
 ---
 
-## 🔭 What I'm working on
-
-**🛡️ Phishing Detection Capstone** — a layered detection dashboard: ML URL triage → live browser capture (Playwright) → DOM/behavior signals → a deterministic adjudication layer, wrapped in Docker with a Streamlit UI that returns plain-language verdicts.
-
-**📚 Curricular / Cohort Analytics (VIP)** — ETL and optimization work behind a University of Arizona student-progress platform (Julia ETL on AWS ECS/Fargate → DynamoDB → dashboard), classifying degree progress as On Track / Behind / Ahead.
-
----
-
 ## 🚀 Featured projects
 
 ### 🎓 [Cohort Analytics — Student-Progress ETL](https://github.com/Bharath-Naveen/cohort-analytics)
