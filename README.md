@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Bharath-Naveen/Bharath-Naveen/main/github-header-anim.gif" alt="Bharath Naveen — Data Scientist, ML Engineer, Data Analyst, Forward Deployed Engineer" width="100%">
+  <img src="https://raw.githubusercontent.com/Bharath-Naveen/Bharath-Naveen/main/github-header-anim_1.gif" alt="Bharath Naveen — Data Scientist, ML Engineer, Data Analyst, Forward Deployed Engineer" width="100%">
 </div>
 
 <p align="center">
@@ -109,5 +109,5 @@ Built the **Power BI** dashboards, **SQL**, and **Python** reporting automation 
 `Data Scientist` · `Machine Learning Engineer` · `Data Analyst` · `Forward Deployed Engineer`
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Bharath-Naveen/Bharath-Naveen/main/footer-anim.gif" alt="Turning messy data into decisions — bharathnaveen.com · linkedin.com/in/bharath-naveen · bharathnaveen.bn@gmail.com" width="100%">
+  <img src="https://raw.githubusercontent.com/Bharath-Naveen/Bharath-Naveen/main/footer-anim_1.gif" alt="Turning messy data into decisions — bharathnaveen.com · linkedin.com/in/bharath-naveen · bharathnaveen.bn@gmail.com" width="100%">
 </div>
