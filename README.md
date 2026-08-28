@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="header.png" alt="Bharath Naveen — Data Scientist, ML Engineer, Data Analyst, Forward Deployed Engineer" width="100%">
+  <img src="https://raw.githubusercontent.com/Bharath-Naveen/Bharath-Naveen/main/github-header.png" alt="Bharath Naveen — Data Scientist, ML Engineer, Data Analyst, Forward Deployed Engineer" width="100%">
 </div>
 
 <p align="center">
