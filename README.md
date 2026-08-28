@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Bharath-Naveen/Bharath-Naveen/main/github-header-anim_1.gif" alt="Bharath Naveen — Data Scientist, ML Engineer, Data Analyst, Forward Deployed Engineer" width="100%">
+  <img src="https://raw.githubusercontent.com/Bharath-Naveen/Bharath-Naveen/main/github-header-anim_1.gif" alt="Bharath Naveen, Data Scientist, ML Engineer, Data Analyst, Forward Deployed Engineer" width="100%">
 </div>
 
 <p align="center">
@@ -12,95 +12,101 @@
 
 I build **end-to-end data and machine learning systems**, from database design and ETL pipelines to modeling, evaluation, and production deployment. I came to data through mechanical engineering and **3+ years of enterprise analytics at Tata Consultancy Services**, so I care as much about clean pipelines, data validation, and clear communication as I do about the model itself. I hold an **MS in Information Science (Machine Learning)** from the University of Arizona, and I'm open to **Data Scientist, Machine Learning Engineer, Data Analyst, and Forward Deployed Engineer** roles.
 
-Plain-language writeups of every project below live on my portfolio: **[bharathnaveen.com](https://bharathnaveen.com)**.
+Full writeups on **[bharathnaveen.com](https://bharathnaveen.com)**.
 
 | Core stack | |
 | --- | --- |
-| **Languages** | Python (pandas, NumPy, scikit-learn), SQL (CTEs, window functions, stored procedures), R, Julia |
-| **ML & modeling** | scikit-learn, XGBoost, LightGBM, applied NLP, exploratory data analysis, model evaluation |
-| **Data & cloud** | AWS (Lambda, DynamoDB, S3, ECS/ECR), ETL pipeline design, data validation, ER modeling |
-| **BI & delivery** | Power BI, DAX, Streamlit, Plotly — dashboards built for non-technical stakeholders |
+| **Languages** | Python (pandas, NumPy, scikit-learn), SQL (CTEs, window functions), R, Julia |
+| **ML & modeling** | scikit-learn, XGBoost, LightGBM, applied NLP, model evaluation |
+| **Data & cloud** | AWS (Lambda, DynamoDB, S3, ECS/ECR), ETL design, ER modeling |
+| **BI & delivery** | Power BI, DAX, Streamlit, Plotly |
 
 ---
 
 ## Featured work
 
-Each project leads with the problem it solves. **Project titles link straight to the repo**; deeper writeups live on **[bharathnaveen.com](https://bharathnaveen.com)**.
+<table>
+<tr><th align="left"><a href="https://github.com/Bharath-Naveen/containerized-phishing-project">Phishing Detection System</a> &nbsp; <sub>Data Scientist · ML Engineer · FDE</sub></th></tr>
+<tr><td>
+<b>Problem:</b> Phishing sites appear and disappear within hours, faster than blocklists can react, and naive URL classifiers over-flag legitimate, modern JavaScript-heavy pages.<br>
+<b>Built:</b> A layered detection system combining supervised ML triage (<b>LightGBM, XGBoost, Random Forest, Logistic Regression</b>) over <b>500K+</b> URL and host features, live page capture with <b>Playwright</b>, HTML and DOM behavior analysis, and a deterministic evidence-adjudication layer that returns explainable safe, suspicious, or phishing verdicts. Containerized with <b>Docker</b>, deployed on <b>AWS</b>, and surfaced through a <b>Streamlit</b> dashboard.<br>
+<b>Skills:</b> <code>Python</code> <code>LightGBM</code> <code>XGBoost</code> <code>Feature engineering</code> <code>Applied NLP</code> <code>Model evaluation</code> <code>Playwright</code> <code>Docker</code> <code>AWS</code> <code>Streamlit</code>
+</td></tr>
+</table>
 
-### [Phishing Detection System](https://github.com/Bharath-Naveen/containerized-phishing-project)
+<table>
+<tr><th align="left"><a href="https://github.com/Bharath-Naveen/cohort-analytics">Cohort Analytics Platform</a> &nbsp; <sub>Data Analyst · ML Engineer · FDE</sub></th></tr>
+<tr><td>
+<b>Problem:</b> University advisors had no fast, reliable way to see whether student cohorts were on track, behind, or ahead of their degree pace.<br>
+<b>Built:</b> Designed and built the serverless data and ETL layer end to end: a containerized <b>Julia</b> ETL on <b>AWS ECS/Fargate</b>, degree-progress classification logic, <b>DynamoDB</b> with query-tuned indexes, a <b>Lambda</b> API, and multi-environment <b>CI/CD</b>. Delivered into production working directly with university stakeholders.<br>
+<b>Skills:</b> <code>AWS Lambda</code> <code>DynamoDB</code> <code>ECS/ECR</code> <code>ETL pipeline design</code> <code>Data modeling</code> <code>CI/CD</code> <code>Julia</code> <code>Stakeholder delivery</code>
+</td></tr>
+</table>
 
-`Data Scientist` · `ML Engineer` · `Forward Deployed Engineer`
+<table>
+<tr><th align="left"><a href="https://github.com/Bharath-Naveen/youtube-comment-spam-detector">YouTube Comment Spam Detector</a> &nbsp; <sub>Data Scientist · ML Engineer</sub></th></tr>
+<tr><td>
+<b>Problem:</b> Harmful comments such as phishing scams, bait bots, and engagement spam erode trust and distort engagement metrics, and there was no labeled dataset to learn from.<br>
+<b>Built:</b> An end-to-end <b>NLP classification</b> pipeline that collects data via the <b>YouTube Data API</b>, generates labels with rule-based <b>weak supervision</b> plus manual validation, engineers behavioral features (link density, emoji frequency, repetition), and trains a <b>TF-IDF and logistic-regression</b> multi-class model tuned for high precision on the highest-risk categories.<br>
+<b>Skills:</b> <code>Python</code> <code>Applied NLP</code> <code>TF-IDF</code> <code>scikit-learn</code> <code>Feature engineering</code> <code>Weak supervision</code> <code>Model evaluation</code> <code>API integration</code>
+</td></tr>
+</table>
 
-**Problem:** Phishing sites appear and vanish faster than blocklists can react, and naive URL models over-flag legitimate, modern JavaScript-heavy pages.<br>
-**Built:** A layered detection system — supervised ML triage (**LightGBM, XGBoost, Random Forest, Logistic Regression**) over **500K+** URL and host features, live page capture with **Playwright**, HTML/DOM behavior analysis, and a deterministic evidence-adjudication layer that returns explainable **safe / suspicious / phishing** verdicts. Containerized with **Docker**, deployed on **AWS**, and surfaced through a **Streamlit** dashboard.<br>
-**Skills:** `Python` `LightGBM` `XGBoost` `Feature engineering` `Applied NLP` `Model evaluation` `Playwright` `Docker` `AWS` `Streamlit`
-
-### [Cohort Analytics Platform](https://github.com/Bharath-Naveen/cohort-analytics)
-
-`Data Analyst` · `ML Engineer` · `Forward Deployed Engineer`
-
-**Problem:** University advisors had no fast way to see whether student cohorts were on track, behind, or ahead of their degree pace.<br>
-**Built:** Designed and built the serverless data and ETL layer end to end — a containerized **Julia** ETL on **AWS ECS/Fargate**, degree-progress classification logic, **DynamoDB** with query-tuned indexes, a **Lambda** API, and multi-environment **CI/CD** — working directly with university stakeholders to ship it into production.<br>
-**Skills:** `AWS Lambda` `DynamoDB` `ECS/ECR` `ETL pipeline design` `Data modeling` `CI/CD` `Julia` `Stakeholder delivery`
-
-### [YouTube Comment Spam Detector](https://github.com/Bharath-Naveen/youtube-comment-spam-detector)
-
-`Data Scientist` · `ML Engineer`
-
-**Problem:** Harmful comments (phishing scams, bait bots, engagement spam) erode trust and distort engagement metrics, with no labeled dataset to learn from.<br>
-**Built:** An end-to-end **NLP classification** pipeline — collected data via the **YouTube Data API**, generated labels with rule-based **weak supervision** plus manual validation, engineered behavioral features (link density, emoji frequency, repetition), and trained a **TF-IDF + logistic-regression** multi-class model tuned for high precision on the highest-risk categories.<br>
-**Skills:** `Python` `Applied NLP` `TF-IDF` `scikit-learn` `Feature engineering` `Weak supervision` `Model evaluation` `API integration`
-
-### [AutoRisk](https://github.com/Bharath-Naveen/AutoRisk) &nbsp;<sub>· in progress</sub>
-
-`Data Scientist` · `ML Engineer` · `Forward Deployed Engineer`
-
-**Problem:** First-time student buyers on a $5–10k budget can't easily judge which cheap used car is a reliable, safe bet.<br>
-**Built:** A data product that ingests **NHTSA** complaints, recalls, and investigations, clusters failure patterns with **TF-IDF and KMeans**, models depreciation with **XGBoost**, and combines them into a composite **reliability score** served through a **Streamlit** app. Modular and Docker-ready.<br>
-**Skills:** `Python` `XGBoost` `Applied NLP` `Clustering` `API ingestion` `Streamlit` `Docker`
+<table>
+<tr><th align="left"><a href="https://github.com/Bharath-Naveen/AutoRisk">AutoRisk</a> &nbsp; <sub>in progress · Data Scientist · ML Engineer · FDE</sub></th></tr>
+<tr><td>
+<b>Problem:</b> First-time student buyers on a $5k to $10k budget cannot easily judge which cheap used car is a reliable, safe bet.<br>
+<b>Built:</b> A data product that ingests <b>NHTSA</b> complaints, recalls, and investigations, clusters failure patterns with <b>TF-IDF and KMeans</b>, models depreciation with <b>XGBoost</b>, and combines them into a composite <b>reliability score</b> served through a <b>Streamlit</b> app. Modular and Docker-ready.<br>
+<b>Skills:</b> <code>Python</code> <code>XGBoost</code> <code>Applied NLP</code> <code>Clustering</code> <code>API ingestion</code> <code>Streamlit</code> <code>Docker</code>
+</td></tr>
+</table>
 
 ---
 
 ## More projects
 
-#### [BN Motors — SQL Data System](https://github.com/Bharath-Naveen/bn_motors_SQL)
+<table>
+<tr><th align="left"><a href="https://github.com/Bharath-Naveen/bn_motors_SQL">BN Motors SQL Data System</a> &nbsp; <sub>Data Analyst · Data Scientist</sub></th></tr>
+<tr><td>
+<b>Problem:</b> A multi-store dealership's sales, service, financing, and parts data was siloed across systems, with no reliable way to report on it.<br>
+<b>Built:</b> A normalized <b>26-table relational database</b> designed from the ER model up (<b>MySQL 8</b>), plus advanced analytical SQL (joins, <b>window functions, CTEs</b>, subqueries) and reusable reporting views for inventory aging, gross-profit attribution, finance penetration, lead-to-sale funnels, and customer lifetime value.<br>
+<b>Skills:</b> <code>MySQL</code> <code>SQL</code> <code>ER modeling</code> <code>Schema design</code> <code>Window functions</code> <code>CTEs</code> <code>Business reporting</code>
+</td></tr>
+</table>
 
-`Data Analyst` · `Data Scientist`
+<table>
+<tr><th align="left"><a href="https://github.com/Bharath-Naveen/german-loan-default-ml-">Loan Default Prediction</a> &nbsp; <sub>Data Scientist · Data Analyst</sub></th></tr>
+<tr><td>
+<b>Problem:</b> Lenders need to flag likely defaulters early, on imbalanced credit data where accuracy alone is misleading.<br>
+<b>Built:</b> A full supervised-learning workflow covering EDA, preprocessing, and feature engineering on economic variables, then benchmarked <b>five models</b> (Logistic Regression, Decision Tree, Random Forest, SVM, Gradient Boosting) tuned for <b>recall and F1</b>, surfacing the real risk drivers such as low balances, short tenure, and thin credit history.<br>
+<b>Skills:</b> <code>Python</code> <code>scikit-learn</code> <code>Gradient Boosting</code> <code>Random Forest</code> <code>SVM</code> <code>Feature engineering</code> <code>EDA</code> <code>Imbalanced data</code> <code>Model evaluation</code>
+</td></tr>
+</table>
 
-**Problem:** A multi-store dealership's sales, service, financing, and parts data was siloed, with no reliable way to report on it.<br>
-**Built:** Designed a normalized **26-table relational database** from the ER model up (**MySQL 8**), and wrote advanced analytical SQL (**joins, window functions, CTEs, subqueries**) plus reusable reporting views for inventory aging, gross-profit attribution, finance penetration, lead-to-sale funnels, and customer lifetime value.<br>
-**Skills:** `MySQL` `SQL` `ER modeling` `Schema design` `Window functions` `CTEs` `Business reporting`
+<table>
+<tr><th align="left"><a href="https://github.com/Bharath-Naveen/youtube-analytics-pipeline">YouTube Analytics Pipeline</a> &nbsp; <sub>Data Analyst</sub></th></tr>
+<tr><td>
+<b>Problem:</b> Manually gathering YouTube performance data does not scale for trend and sentiment analysis.<br>
+<b>Built:</b> An automated pipeline that extracts video and comment data via the <b>YouTube Data API</b>, structures views, likes, and comment text, stores it as JSON, and enables engagement-trend and sentiment analysis with <b>Plotly</b> visualizations.<br>
+<b>Skills:</b> <code>Python</code> <code>YouTube Data API</code> <code>ETL</code> <code>Data cleaning</code> <code>EDA</code> <code>Plotly</code>
+</td></tr>
+</table>
 
-#### [Loan Default Prediction](https://github.com/Bharath-Naveen/german-loan-default-ml-)
-
-`Data Scientist` · `Data Analyst`
-
-**Problem:** Lenders need to flag likely defaulters early, on imbalanced credit data where accuracy alone is misleading.<br>
-**Built:** A full supervised-learning workflow — EDA, preprocessing, and feature engineering on economic variables — then benchmarked **five models** (Logistic Regression, Decision Tree, Random Forest, SVM, Gradient Boosting) tuned for **recall and F1**, and surfaced the real risk drivers (low balances, short tenure, thin credit history).<br>
-**Skills:** `Python` `scikit-learn` `Gradient Boosting` `Random Forest` `SVM` `Feature engineering` `EDA` `Imbalanced data` `Model evaluation`
-
-#### [YouTube Analytics Pipeline](https://github.com/Bharath-Naveen/youtube-analytics-pipeline)
-
-`Data Analyst`
-
-**Problem:** Manually gathering YouTube performance data doesn't scale for trend and sentiment analysis.<br>
-**Built:** An automated pipeline that extracts video and comment data via the **YouTube Data API**, structures views, likes, and comment text, stores it as JSON, and enables engagement-trend and sentiment analysis with **Plotly** visualizations.<br>
-**Skills:** `Python` `YouTube Data API` `ETL` `Data cleaning` `EDA` `Plotly`
-
-#### [TMDB Movie Scraper](https://github.com/Bharath-Naveen/tmdb-movie-scraper)
-
-`Data Analyst`
-
-**Problem:** Structured movie and review data isn't readily available for downstream analytics.<br>
-**Built:** A web-scraping pipeline that extracts, cleans, and exports structured movie and review datasets ready for analysis.<br>
-**Skills:** `Python` `BeautifulSoup` `Web scraping` `Data cleaning` `ETL`
+<table>
+<tr><th align="left"><a href="https://github.com/Bharath-Naveen/tmdb-movie-scraper">TMDB Movie Scraper</a> &nbsp; <sub>Data Analyst</sub></th></tr>
+<tr><td>
+<b>Problem:</b> Structured movie and review data is not readily available for downstream analytics.<br>
+<b>Built:</b> A web-scraping pipeline that extracts, cleans, and exports structured movie and review datasets ready for analysis, with a repeatable flow for refreshing the data.<br>
+<b>Skills:</b> <code>Python</code> <code>BeautifulSoup</code> <code>Web scraping</code> <code>Data cleaning</code> <code>ETL</code>
+</td></tr>
+</table>
 
 ---
 
 ## Experience
 
-**Systems Engineer, Data & Analytics — Tata Consultancy Services** · 3+ years<br>
-Built the **Power BI** dashboards, **SQL**, and **Python** reporting automation that Microsoft-account stakeholders made release decisions from, automated reporting pipelines that cut days of manual work per cycle, and ran exploratory analysis across hundreds of test and defect records, with a focus on data validation and cross-team communication. The enterprise-scale foundation behind everything above.
+**Systems Engineer, Data & Analytics, Tata Consultancy Services** · 3+ years<br>
+Built the Power BI dashboards, SQL, and Python reporting automation that Microsoft-account stakeholders made release decisions from, automated reporting pipelines that cut days of manual work per cycle, and ran exploratory analysis across hundreds of test and defect records, with a focus on data validation and cross-team communication. The enterprise-scale foundation behind everything above.
 
 ---
 
@@ -109,5 +115,5 @@ Built the **Power BI** dashboards, **SQL**, and **Python** reporting automation 
 `Data Scientist` · `Machine Learning Engineer` · `Data Analyst` · `Forward Deployed Engineer`
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Bharath-Naveen/Bharath-Naveen/main/footer-anim_1.gif" alt="Turning messy data into decisions — bharathnaveen.com · linkedin.com/in/bharath-naveen · bharathnaveen.bn@gmail.com" width="100%">
+  <img src="https://raw.githubusercontent.com/Bharath-Naveen/Bharath-Naveen/main/footer-anim_1.gif" alt="Turning messy data into decisions. bharathnaveen.com, linkedin.com/in/bharath-naveen, bharathnaveen.bn@gmail.com" width="100%">
 </div>
