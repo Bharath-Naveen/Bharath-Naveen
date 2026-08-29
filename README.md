@@ -8,7 +8,7 @@
   <a href="mailto:bharathnaveen.bn@gmail.com"><img src="https://img.shields.io/badge/Email-0E7C86?style=flat&logo=gmail&logoColor=white"></a>
 </p>
 
-## About
+## About me
 
 I build **end-to-end data and machine learning systems**, from database design and ETL pipelines to modeling, evaluation, and production deployment. I came to data through mechanical engineering and **3+ years of enterprise analytics at Tata Consultancy Services**, so I care as much about clean pipelines, data validation, and clear communication as I do about the model itself. I hold an **MS in Information Science (Machine Learning)** from the University of Arizona, and I'm open to **Data Scientist, Machine Learning Engineer, Data Analyst, and Forward Deployed Engineer** roles.
 
